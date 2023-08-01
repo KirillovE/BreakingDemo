@@ -39,7 +39,9 @@
                                         <rect key="frame" x="201.5" y="0.0" width="76.5" height="41"/>
                                         <color key="tintColor" systemColor="systemRedColor"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Modify"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Modify">
+                                            <color key="baseBackgroundColor" systemColor="systemRedColor"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="rightButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RpI-3K-FkH"/>
                                         </connections>

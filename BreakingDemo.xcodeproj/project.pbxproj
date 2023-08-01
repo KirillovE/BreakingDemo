@@ -16,6 +16,7 @@
 		FCB6F84F2A7948C200C39E5F /* BreakingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F84E2A7948C200C39E5F /* BreakingDemoTests.swift */; };
 		FCB6F8592A7948C200C39E5F /* BreakingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F8582A7948C200C39E5F /* BreakingDemoUITests.swift */; };
 		FCB6F85B2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F85A2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift */; };
+		FCB6F8682A795B9200C39E5F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F8672A795B9200C39E5F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FCB6F8542A7948C200C39E5F /* BreakingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB6F8582A7948C200C39E5F /* BreakingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDemoUITests.swift; sourceTree = "<group>"; };
 		FCB6F85A2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCB6F8672A795B9200C39E5F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FCB6F8372A7948C000C39E5F /* AppDelegate.swift */,
 				FCB6F8392A7948C000C39E5F /* SceneDelegate.swift */,
 				FCB6F83B2A7948C000C39E5F /* ViewController.swift */,
+				FCB6F8672A795B9200C39E5F /* Model.swift */,
 				FCB6F83D2A7948C000C39E5F /* Main.storyboard */,
 				FCB6F8402A7948C200C39E5F /* Assets.xcassets */,
 				FCB6F8422A7948C200C39E5F /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 				FCB6F83C2A7948C000C39E5F /* ViewController.swift in Sources */,
 				FCB6F8382A7948C000C39E5F /* AppDelegate.swift in Sources */,
 				FCB6F83A2A7948C000C39E5F /* SceneDelegate.swift in Sources */,
+				FCB6F8682A795B9200C39E5F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
