@@ -7,9 +7,10 @@
 
 import Foundation
 
-struct Model {
+class Model {
     let initialText = "Liberté"
-    
+
+    private let doIHaveTiketToParis = true
     private var pointer = 0
     private let lines = [
         "Liberté",
@@ -18,7 +19,7 @@ struct Model {
         "Ou mort"
     ]
 
-    mutating func nextLine() -> String? {
+    func nextLine() -> String? {
         do {
             return try calculateLine()
         } catch {
@@ -26,12 +27,12 @@ struct Model {
         }
     }
 
-    private mutating func calculateLine() throws -> String {
-        if pointer >= lines.index(before: lines.endIndex) {
-            throw DemoError.oops
-        } else {
+    private func calculateLine() throws -> String {
+        if pointer < lines.index(before: lines.endIndex), doIHaveTiketToParis {
             pointer += 1
             return lines[pointer]
+        } else {
+            throw DemoError.zut
         }
     }
 }
@@ -49,5 +50,5 @@ extension Model: CustomDebugStringConvertible {
 }
 
 enum DemoError: Error {
-    case oops
+    case zut
 }

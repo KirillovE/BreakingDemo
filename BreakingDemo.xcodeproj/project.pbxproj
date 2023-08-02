@@ -14,8 +14,6 @@
 		FCB6F8412A7948C200C39E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB6F8402A7948C200C39E5F /* Assets.xcassets */; };
 		FCB6F8442A7948C200C39E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB6F8422A7948C200C39E5F /* LaunchScreen.storyboard */; };
 		FCB6F84F2A7948C200C39E5F /* BreakingDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F84E2A7948C200C39E5F /* BreakingDemoTests.swift */; };
-		FCB6F8592A7948C200C39E5F /* BreakingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F8582A7948C200C39E5F /* BreakingDemoUITests.swift */; };
-		FCB6F85B2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F85A2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift */; };
 		FCB6F8682A795B9200C39E5F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6F8672A795B9200C39E5F /* Model.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +46,6 @@
 		FCB6F84A2A7948C200C39E5F /* BreakingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCB6F84E2A7948C200C39E5F /* BreakingDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDemoTests.swift; sourceTree = "<group>"; };
 		FCB6F8542A7948C200C39E5F /* BreakingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCB6F8582A7948C200C39E5F /* BreakingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDemoUITests.swift; sourceTree = "<group>"; };
-		FCB6F85A2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCB6F8672A795B9200C39E5F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +79,6 @@
 			children = (
 				FCB6F8362A7948C000C39E5F /* BreakingDemo */,
 				FCB6F84D2A7948C200C39E5F /* BreakingDemoTests */,
-				FCB6F8572A7948C200C39E5F /* BreakingDemoUITests */,
 				FCB6F8352A7948C000C39E5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,15 +114,6 @@
 				FCB6F84E2A7948C200C39E5F /* BreakingDemoTests.swift */,
 			);
 			path = BreakingDemoTests;
-			sourceTree = "<group>";
-		};
-		FCB6F8572A7948C200C39E5F /* BreakingDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FCB6F8582A7948C200C39E5F /* BreakingDemoUITests.swift */,
-				FCB6F85A2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift */,
-			);
-			path = BreakingDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +266,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB6F85B2A7948C200C39E5F /* BreakingDemoUITestsLaunchTests.swift in Sources */,
-				FCB6F8592A7948C200C39E5F /* BreakingDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
