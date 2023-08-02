@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             textLabel.text = text
         } else {
             DispatchQueue.global().async {
-                self.textLabel.text = ""
+                self.textLabel.text = "😵"
             }
         }
     }
